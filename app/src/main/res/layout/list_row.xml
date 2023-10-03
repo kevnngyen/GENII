@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/questiontext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/montserrat_alternates"
+        android:shadowColor="#9A7979"
+        android:text="question "
+        android:textColor="#E68B8B"
+        android:textSize="34dp" />
+
+    <TextView
+        android:id="@+id/revealAnswerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questiontext"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/montserrat_alternates"
+        android:text="click to reveal and edit card "
+        android:textColor="#BCB8B8"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_alternates"
+        android:text="Question:"
+        android:textColor="#BCB8B8"
+        android:textSize="28dp" />
+
+</RelativeLayout>
