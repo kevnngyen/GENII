@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.geniiproject"
+    namespace = "com.project.geniiproject"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.geniiproject"
+        applicationId = "com.project.geniiproject"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
